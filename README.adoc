@@ -1,0 +1,14 @@
+= asciidoc-sample
+
+AsciiDoc via Maven.
+
+== Samples
+
+* https://github.com/wgag/asciidoc-sample/releases/download/1.0/asciidoc-sample.html[asciidoc-sample.html]
+* https://github.com/wgag/asciidoc-sample/releases/download/1.0/asciidoc-sample.pdf[asciidoc-sample.pdf]
+
+== Instructions
+
+----
+% mvn package
+----

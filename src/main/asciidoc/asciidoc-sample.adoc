@@ -1,0 +1,80 @@
+= Sample Document
+// must not leave blank line
+:doctype: article
+:lang: en
+:toc: left
+:toclevels: 3
+:source-highlighter: coderay
+:icons: font
+:imagesdir: images
+:sectanchors:
+:sectnums:
+:xrefstyle: short
+:listing-caption: List
+:authors: Alice, Bob
+
+[[sec:section1]]
+== First section
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+====
+Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+====
+
+> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+[NOTE]
+====
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+====
+
+[[sec:section2]]
+== Second section
+
+include::part.adoc[]
+
+[[sec:section3]]
+== Third section
+
+The basic data types of C are described in <<tb:table1>>.
+
+[[tb:table1]]
+.Sample table.
+[cols=2, options="header, autowidth"]
+|===
+| Type
+| Description
+
+| `char`
+| a single byte
+
+| `int`
+| an integer
+
+| `float`
+| single-precision floating point
+
+| `double`
+| double-precision floating point
+|===
+
+The _hello world_ program in Java is shown in <<lst:listing1>>.
+
+[[lst:listing1]]
+.Sample listing.
+[source, java]
+----
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("hello, world");  // <1>
+    }
+}
+----
+<1> Prints the string "hello, world" and terminates the line.
+
+The lifting by Kleisli star is described in <<fig:figure1>>.
+
+[[fig:figure1]]
+.Sample image.
+image::image1.svg[width=220]
